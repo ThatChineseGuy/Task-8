@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTD-8">
+        <meta http-equiv="X-UA-Compatible" cpmtemt="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scal">
+        <title>Task 3</title>
+    </head>
+    <body>
+        <form method ="get">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <p ><label for ="first_name">First Name*:</label>
+                <input id="first_name" type="text" name="first_name" placeholder="Your first name" required>
+                <p>
+                    <label for ="last_name">Last Name*:</label>
+                <input id="last_name" type="text" name="last_name" placeholder="Your last name" required>
+                </p>
+                <p>
+                    <label for ="Email_address">Email Address*:</label>
+                <input id="Email_address" type="text" name="Email_address" placeholder="Your email address" required>
+                </p>
+                <p>
+                    <label for ="password">Password input*:</label>
+                <input id="password" type="text" name="password" required>
+                </p>
+                <p>
+                    <label for ="repeat_password">Repeat Password:</label>
+                <input id="repeat_password" type="text" name="repeat_password">
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend>Profile Information</legend>
+                <p>
+                    Grade Level
+                    <input type="radio" name="level" value="Freshman" id="Freshman">
+                    <label for="Freshman"> Freshman </label>
+                    <input type="radio" name="level" value="Sophomore" id="Sophomore">
+                    <label for="Sophomore"> Sophomore </label>
+                    <input type="radio" name="level" value="Junior" id="Junior">
+                    <label for="Junior"> Junior </label>
+                    <input type="radio" name="level" value="Senior" id="Senior">
+                    <label for="Senior"> Senior </label>
+                    <input type="radio" name="level" value="Gradute" id="Gradute">
+                    <label for="Gradute"> Gradute </label>
+                </p>
+                <p>Favorite Genre of Music (You can select multiple hold command/control + shift and click)*:
+                    <label for="music-genre"></label>
+                    <select multiple id="music-genre" name="music-genre">
+                        <option value="rock">Rock</option>
+                        <option value="hip-hop">Hip-Hop</option>
+                        <option value="EDM">EDM</option>
+                        <option value="classical">Classical</option>
+                    </select required>
+                </p>
+                <p>
+                    Favorite member of Wu Tang Clan*:
+                    <label for="Wu"></label>
+                    <select name="Wu" id="Wu">
+                        <option value="select" selected>--Select--</option>
+                        <option value="RzA">RzA</option>
+                        <option value="GzA">GzA</option>
+                        <option value="Ol’ Dirty">Ol’ Dirty</option>
+                        <option value="Inspectah Deck">Inspectah Deck</option>
+                        <option value="Raekwon">Raekwon</option>
+                        <option value="U-God">U-God</option>
+                        <option value="Ghostface Killah">Ghostface Killah</option>
+                        <option value="Method Man">Method Man</option>
+                    </select required>
+                </p>
+                <p>
+                    <input type="checkbox" id="spam" name="spam">
+                    <label for="spam">Sign me up for spam emails, because I don't get enough junk email!</label>
+                </p>
+            </fieldset>
+            <p>
+                * Required
+                <input type="Submit" value="Submit">
+            </p>
+        </form>
+    </body>
+</html>
