@@ -1,0 +1,78 @@
+<!DOCTYPE html>>
+<html>
+    <head>
+            <meta charset="UTD-8">
+            <meta http-equiv="X-UA-Compatible" cpmtemt="IE-edge">
+            <meta name="viewport" content="width=device-width, initial-scal">
+        <title>form 2</title>
+    </head>
+    <body>
+        <form method="get">
+        <fieldset>
+            <p>
+                <label for="login">Login:</label>
+                <input
+                id="login" 
+                type="text" 
+                name="login-name"
+                placeholder="Enter your login"
+                value=""
+                >
+            </p>
+            <p>
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" required>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Pet</legend>
+            <p>
+                <input type="checkbox" name="dog" id="dog" value="1">
+                <label for="dog">Dog</label>
+            </p>
+            <p>
+                <input type="checkbox" name="fish" id="fish" value="1">
+                <label for="fish">Fish</label>
+            </p>
+        </fieldset>
+        <p>Favorite Band</p>
+        <p>
+            <input type="radio" name="favorite-band" value="sublime" id="sublime">
+            <label for="sublime">Sublime</label>
+        </p>
+        <p>
+            <input type="radio" name="favorite-band" value="alice-in-chains" id="alt">
+            <label for="alt">A  lice-in-chains</label>
+        </p>
+        <p>
+            <input type="radio" name="favorite-band" value="nirvana" id="nirvana">
+            <label for="nirvana">Nirvana</label>
+        </p>
+        <p>
+            <label for="the-date">Date</label>
+            <input type="date" name="the-date" id="the-date">
+        </p>
+        <p>
+            <label for="age">Age</label>
+            <input type="number" min="18" max="150" step="2" id="age" name="age">
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </p>
+        <p>
+            <label for="bio">Bio</label>
+            <textarea id="bio" name="biography"></textarea>
+        </p>
+        <p>
+            <label for="fav-car">Favorite Car</label>
+            <select multiple id="fav-car" name="fav-car">
+                <option value="honda">Honda</option>
+                <option value="nissan">Nissan</option>
+                <option value="toyota">Toyota</option>
+            </select>
+        </p>
+            <p><input type="submit"></p>
+        </form>
+    </body>
+</html>

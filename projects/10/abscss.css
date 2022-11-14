@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+.wrapper{
+    background-color: red;
+    height:100vh
+    
+}
+img{
+    position: absolute;
+}
