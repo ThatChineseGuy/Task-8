@@ -1,0 +1,30 @@
+p{
+    color:#555
+}
+header a{ 
+    color: #880808
+}
+header a:hover{
+    text-decoration: none;
+}
+header ul li{
+    display: inline;
+}
+h1 + p{
+    text-decoration: underline;
+}
+h2 + p{
+    text-decoration: underline;
+}
+span.am{
+    text-decoration: underline;
+}
+span:not(.am){
+    font-style: italic;
+}
+footer ul li:last-child{
+    font-weight: bold;
+}
+footer ul li:first-child{
+    list-style: none;
+}
